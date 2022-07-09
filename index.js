@@ -28,6 +28,9 @@ bot.variables({
     category: "",
     channel: "",
     setup: "false",
+    captchacode: "",
+    captcharole: "undefined",
+    captchastatus: "false",
 })
 
 loader.load(bot.cmd,'./cmds/')
