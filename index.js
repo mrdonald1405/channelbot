@@ -31,6 +31,8 @@ bot.variables({
     captchacode: "",
     captcharole: "undefined",
     captchastatus: "false",
+    welcomemsg: "undefined",
+    welcomechannel: "undefined",
 })
 
 loader.load(bot.cmd,'./cmds/')
